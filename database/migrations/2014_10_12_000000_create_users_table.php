@@ -41,16 +41,6 @@ return new class extends Migration
             'created_at' => now(),
         ]);
 
-        DB::table('users')->insert([
-            'sponsor' => 'jlustre',
-            'username' => 'jblustre',
-            'role_id' => 1,
-            'email' => 'lustre.joane@gmail.com',
-            'password' => Hash::make('jocolus7'),
-            'email_verified_at' => now(),
-            'created_at' => now(),
-        ]);
-
     }
 
     /**
